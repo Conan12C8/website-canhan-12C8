@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Cá Nhân - Học sinh lớp 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== PHẦN ĐẦU TRANG ===== -->
+    <header>
+        <h1>TRƯỜNG THPT NGUYỄN HỮU CẢNH</h1>
+        <p>CÁC HOẠT ĐỘNG VÀ PHONG TRÀO NỔI BẬT, TIÊU BIỂU</p>
+    </header>
+
+    <!-- ===== MENU ===== -->
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Thành tích</a></li>
+            <li><a href="#">Hoạt động</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== BANNER ===== -->
+    <div class="banner">
+        <h2>Chào mừng đến với website của em</h2>
+    </div>
+
+    <!-- ===== NỘI DUNG CHÍNH ===== -->
+    <div class="main">
+
+        <!-- CỘT TRÁI -->
+        <div class="left">
+            <h2>Danh mục</h2>
+            <ul>
+                <li>Thông báo</li>
+                <li>Kế hoạch học tập</li>
+                <li>Tài liệu ôn thi</li>
+                <li>Lịch kiểm tra</li>
+                <li>Khen thưởng</li>
+            </ul>
+        </div>
+
+        <!-- NỘI DUNG GIỮA -->
+        <div class="center">
+            <h2>Giới thiệu bản thân</h2>
+            <p>
+                Em tên là: Nam <br>
+                Lớp: 12C8 <br>
+                Trường: THPT NGUYỄN HỮU CẢNH
+            </p>
+
+            <p>
+                Đây là website cá nhân do em và các bạn trong nhóm thực hiện.
+                Website được thiết kế bằng HTML và CSS cơ bản.
+            </p>
+
+            <h2>Hoạt động gần đây</h2>
+            <p>
+                - Tư vấn tuyển sinh <br>
+                - Thứ 6 vui vẻ <br>
+                - Tự hào Sử Việt <br>
+                - Ngày hội Khoa học
+            </p>
+        </div>
+
+        <!-- CỘT PHẢI -->
+        <div class="right">
+            <h2>Tin mới</h2>
+
+            <p>📌 Nhà trường tổ chức kiểm tra giữa kỳ học kỳ II.</p>
+            <p>📌 Tăng cường ôn thi tốt nghiệp THPT 2026.</p>
+            <p>📌 Phát động phong trào thi đua học tập tốt.</p>
+        </div>
+
+    </div>
+
+    <!-- ===== CHÂN TRANG ===== -->
+    <footer>
+        © 2026 - Website cá nhân học sinh lớp 12C8 <br>
+        Thiết kế bằng HTML & CSS
+    </footer>
+
+</body>
+</html>
